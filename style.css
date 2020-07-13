@@ -5,15 +5,44 @@
 
 body {
     display: flex;
-    width: 90vw;
-    height: 90vh;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    margin: 0 auto;
+    justify-content: space-around;
+    height: 90vh;
+    font-family: Raleway;
 }
 
-p {
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 35vw;
+}
+
+img {
+    width: 15vw;
+    height: auto;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 42px;
+}
+
+footer, main {
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 36px;
+    text-align: center;
+}
+
+footer p {
     font-size: 24px;
-    font-family: Raleway;
     text-align: center;
 }
